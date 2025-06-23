@@ -21,6 +21,7 @@ public abstract class Shapes : MonoBehaviour
             GetComponent<Renderer>().material.color = value;
         }
     }
+    // POLYMORPHISM
     private void OnMouseDown()
     {
         DoAction(); 
