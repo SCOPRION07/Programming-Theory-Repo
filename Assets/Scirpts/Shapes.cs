@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Shapes : MonoBehaviour
 {
+    // ENCAPSULATION
     private string shapeName;
     private Color shapeColor;
     public  string ShapeName
@@ -25,7 +26,7 @@ public abstract class Shapes : MonoBehaviour
         DoAction(); 
     }
 
-    
+    // ABSTRACTION
       public abstract void DoAction();
 
 }
